@@ -1,3 +1,5 @@
+# coding:utf-8
+
 ''' 2 - Strings '''
 
 my_string = "Ola Python"
