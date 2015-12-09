@@ -18,6 +18,22 @@ for my_iterator in my_list[::-1]:  # backwards
     print my_iterator  # 64 32 16 8 4 2
 print '\n\n'
 
+''' Obs:
+    Como dito anteriormente, strings também são acessadas via índice.
+    Sendo assim, podemos fazer coisas do tipo:'''
+
+print '==== STRINGS ===='
+
+my_string = 'globo.com'
+
+for my_iterator in my_string:
+    print my_iterator  # globo.com
+print '\n'
+
+for my_iterator in my_string[::-1]:  # backwards
+    print my_iterator  # moc.obolg
+print '\n\n'
+
 
 ''' Dicts '''
 
