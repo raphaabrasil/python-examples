@@ -14,7 +14,7 @@ for my_iterator in my_list:
     print my_iterator  # 2 4 8 16 32 64
 print '\n'
 
-for my_iterator in my_list[::-1]:  # backwards
+for my_iterator in reversed(my_list):  # backwards
     print my_iterator  # 64 32 16 8 4 2
 print '\n\n'
 
@@ -30,7 +30,7 @@ for my_iterator in my_string:
     print my_iterator  # globo.com
 print '\n'
 
-for my_iterator in my_string[::-1]:  # backwards
+for my_iterator in reversed(my_string):  # backwards
     print my_iterator  # moc.obolg
 print '\n\n'
 
