@@ -1,3 +1,5 @@
+# coding:utf-8
+
 ''' 5-Dict.py '''
 
 dados = {"nome": "Raphael", "idade": 22}
